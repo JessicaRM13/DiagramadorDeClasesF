@@ -1,0 +1,21 @@
+.text-updater-node {
+  height: 50px;
+  border: 1px solid #928bf2;
+  padding: 10px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #f0f4c3, #e1f5fe);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease, border 0.3s ease;
+}
+
+.text-updater-node:hover {
+  background: #e1f5fe;
+  border: 1px solid #00bcd4;
+}
+
+.text-updater-node label {
+  display: block;
+  color: #0d47a1;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+}
